@@ -1,232 +1,546 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css" >
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hamid Khadir web designer">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamid Khadir - Web Developer Portfolio">
+
     <title>Hamid Khadir – Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+<body class="bg-dark text-light">
 
-<body class="body">
-<div class="bg">
-   <header>
-   <nav class="menu">
-        <div class="khadir" >Hamid Khadir bootstap </div>
-        
-        <a  class="button" href="#ueber-mich">Über mich </a>
-        <a  class="button" href="#kenntnisse">Fähigkeiten </a>
-        <a  class="button" href="#kontakt">Kontakt  </a>
-             
+    <!-- Video Background -->
+    <video
+        class="video-box"
+        autoplay
+        muted
+        loop
+        playsinline>
 
-    </nav>
-    
-</header>
+        <source
+            src="https://corebook.io/video/crystal_test6-hevc-safari.mp4"
+            type="video/mp4">
 
-<div>
+        <source
+            src="https://corebook.io/video/crystal_test6-vp9-chrome.webm"
+            type="video/webm">
 
-<video preload="auto" data-nosnippet="" class="video-box" autoplay="" loop="" muted="" playsinline="" poster="https://corebook.io/images/crystal_poster.avif">
-            <source data-src="https://corebook.io/video/crystal_test6-hevc-safari.mp4" type="video/mp4; codecs=&quot;hvc1&quot;" src="https://corebook.io/video/crystal_test6-hevc-safari.mp4">
-            <source data-src="https://corebook.io/video/crystal_test6-vp9-chrome.webm" type="video/webm" src="https://corebook.io/video/crystal_test6-vp9-chrome.webm">
-          </video>
+    </video>
+
+    <div class="bg">
+
+        <!-- ================= NAVBAR ================= -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+
+            <div class="container">
+
+                <a class="navbar-brand fw-bold fs-3" href="#">
+                    Hamid Khadir
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainMenu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="mainMenu">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#ueber-mich">
+                                Über mich
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#kenntnisse">
+                                Fähigkeiten
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#kontakt">
+                                Kontakt
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- ================= MAIN ================= -->
+
+        <main class="container pt-5 mt-5">
+          <!-- Hero / Über mich -->
+
+<section id="ueber-mich" class="row g-4 mb-4">
+
+    <div class="col-12 col-lg-6">
+
+        <div class="card bg-dark text-light border-primary shadow h-100">
+
+            <div class="card-body">
+
+                <h2 class="card-title mb-4">
+                    Willkommen auf meiner Portfolio-Webseite
+                </h2>
+
+                <p>
+                    Ich bin Hamid Khadir, ein angehender Webentwickler mit
+                    Leidenschaft für moderne Technologien und kreatives Design.
+                </p>
+
+                <figure class="text-center mt-4">
+
+                    <img
+                        src="images/myphoto.jpg"
+                        class="img-fluid rounded-circle border border-3 border-primary"
+                        style="max-width:220px;"
+                        alt="Portrait von Hamid Khadir">
+
+                    <figcaption class="mt-3">
+
+                        Hamid Khadir<br>
+                        Webentwickler in Ausbildung
+
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-12 col-lg-6">
+
+        <div class="card bg-dark text-light border-primary shadow h-100">
+
+            <div class="card-body">
+
+                <h2 class="card-title">
+                    Über mich
+                </h2>
+
+                <p>
+
+                    Ich lerne derzeit Webentwicklung und beschäftige mich
+                    intensiv mit HTML, CSS, Bootstrap, Git und modernen
+                    Technologien.
+
+                </p>
+
+                <p>
+
+                    Mein Ziel ist es,
+                    professionelle,
+                    responsive und benutzerfreundliche Webseiten zu entwickeln.
+
+                </p>
+
+                <div class="ratio ratio-16x9 mt-4">
+
+                    <iframe
+
+                        src="https://www.youtube.com/embed/ybsi1hWwM8M"
+
+                        allowfullscreen>
+
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- Interessen -->
+
+<section class="row g-4 mb-4">
+
+    <div class="col-12 col-md-6 col-xl-4">
+
+        <div class="card bg-dark text-light border-primary shadow h-100">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+
+                    Meine Interessen
+
+                </h3>
+
+                <ul class="mt-3">
+
+                    <li>Webentwicklung</li>
+
+                    <li>HTML &amp; CSS</li>
+
+                    <li>Bootstrap</li>
+
+                    <li>JavaScript</li>
+
+                    <li>Programmierung</li>
+
+                    <li>Technologie</li>
+
+                    <li>Kontinuierliches Lernen</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="col-12 col-md-6 col-xl-4">
+
+        <div class="card bg-dark text-light border-primary shadow h-100">
+
+            <div class="card-body">
+
+                <h3>
+
+                    Meine Fähigkeiten
+
+                </h3>
+
+                <ol class="mt-3">
+
+                    <li>Semantisches HTML</li>
+
+                    <li>CSS3</li>
+
+                    <li>Bootstrap 5</li>
+
+                    <li>Responsive Design</li>
+
+                    <li>Git & GitHub</li>
+
+                </ol>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div
+        id="kenntnisse"
+        class="col-12 col-xl-4">
+
+        <div class="card bg-dark text-light border-primary shadow h-100">
+
+            <div class="card-body">
+
+                <h3 class="mb-4">
+
+                    Fähigkeiten
+
+                </h3>
+
+                <table class="table table-dark table-striped table-hover align-middle">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Bereich</th>
+
+                            <th>Kenntnis</th>
+
+                            <th>Erfahrung</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>HTML</td>
+
+                            <td>Fortgeschritten</td>
+
+                            <td>3 Monate</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>CSS</td>
+
+                            <td>Fortgeschritten</td>
+
+                            <td>3 Monate</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Bootstrap</td>
+
+                            <td>Grundlagen</td>
+
+                            <td>1 Monat</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Git &amp; GitHub</td>
+
+                            <td>Einsteiger</td>
+
+                            <td>2 Monate</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <hr>
+
+                <h4>
+
+                    Projekte
+
+                </h4>
+
+                <a
+                    class="btn btn-primary me-2 mt-2"
+                    target="_blank"
+                    href="https://savitha14june.github.io/autoherosample/">
+
+                    Startup Projekt
+
+                </a>
+
+                <a
+                    class="btn btn-outline-info mt-2"
+                    target="_blank"
+                    href="https://hamidkhadir2.github.io/myweb/grid.html">
+
+                    Grid Sample
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= Kontakt ================= -->
+
+<section id="kontakt" class="row mb-5">
+
+    <div class="col-lg-8 mx-auto">
+
+        <div class="card bg-dark text-light border-primary shadow">
+
+            <div class="card-body">
+
+                <h2 class="card-title mb-4">
+                    Kontakt
+                </h2>
+
+                <p class="mb-4">
+
+                    <a
+                        class="text-info text-decoration-none"
+                        href="mailto:hamid.khadir@gmail.com">
+
+                        hamid.khadir@gmail.com
+
+                    </a>
+
+                </p>
+
+                <form
+                    action="https://httpbin.org/post"
+                    method="post">
+
+                    <div class="mb-3">
+
+                        <label
+                            for="name"
+                            class="form-label">
+
+                            Name *
+
+                        </label>
+
+                        <input
+                            class="form-control"
+                            type="text"
+                            id="name"
+                            name="name"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label
+                            for="email"
+                            class="form-label">
+
+                            E-Mail *
+
+                        </label>
+
+                        <input
+                            class="form-control"
+                            type="email"
+                            id="email"
+                            name="email"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label
+                            for="telefon"
+                            class="form-label">
+
+                            Telefon
+
+                        </label>
+
+                        <input
+                            class="form-control"
+                            type="tel"
+                            id="telefon"
+                            name="telefon">
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label
+                            for="betreff"
+                            class="form-label">
+
+                            Betreff *
+
+                        </label>
+
+                        <input
+                            class="form-control"
+                            type="text"
+                            id="betreff"
+                            name="betreff"
+                            required>
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <label
+                            for="nachricht"
+                            class="form-label">
+
+                            Nachricht *
+
+                        </label>
+
+                        <textarea
+                            class="form-control"
+                            id="nachricht"
+                            name="nachricht"
+                            rows="6"
+                            placeholder="Schreibe deine Nachricht..."
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        class="btn btn-primary btn-lg"
+                        type="submit">
+
+                        Nachricht senden
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= Footer ================= -->
+
+<footer class="text-center text-light py-4">
+
+    <hr>
+
+    <p class="mb-0">
+
+        &copy; 2026 Hamid Khadir. Alle Rechte vorbehalten.
+
+    </p>
+
+</footer>
+
 </div>
 
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-<br>
-<br>
- <main>
-
-  <div id="ueber-mich" class="flex-container">
-    
-   <div class="box" style="height: 550px; font-size: 1rem;"> 
-    
-<p>Willkommen auf meiner Portfolio-Webseite</p>
-    <p style="text-align: justify;">Ich bin Hamid Khadir, ein angehender Webentwickler mit Leidenschaft für moderne Technologien und kreatives Design.</p>
-      <!-- Über mich -->
-    <scetion >
-
-      <h2>Über mich</h2>
-
-      <figure>
-        <img class="pic"
-          src="images/myphoto.jpg"
-          alt="Portrait von Hamid Khadir"
-          width="200">
-        <figcaption>Hamid Khadir  Webentwickler in Ausbildung</figcaption>
-      </figure>
-    </scetion>
-    </div>
-<div class="box"  style="height: 550px;">
-      <p style="text-align: justify; font-size: 1rem;">
-        Ich lerne derzeit Webentwicklung und beschäftige mich intensiv mit HTML,
-        CSS und modernen Technologien. Mein Ziel ist es, professionelle,
-        benutzerfreundliche Webseiten zu entwickeln und meine Kenntnisse
-        kontinuierlich zu erweitern.
-      </p>
-       
-    <iframe
-  
-    src="https://www.youtube.com/embed/ybsi1hWwM8M"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
-
-</div> 
-</div>
-<div class="flex-container" >
-  <div class="box" style="line-height: 2rem;">
-
-      <h3>Meine Interessen</h3>
-
-      <ul>
-        <li>Webentwicklung</li>
-        <li>HTML &amp; CSS</li>
-        <li>Programmierung</li>
-        <li>Technologie</li>
-        <li>Kontinuierliches Lernen</li>
-      </ul>
-
-      <h3>Meine Fähigkeiten</h3>
-
-      <ol>
-        <li>Semantisches HTML</li>
-        <li>Grundlagen von CSS</li>
-        <li>Strukturierte Webseiten erstellen</li>
-      </ol>
-
-    </section>
-  </div>
-<div   id="kenntnisse" class="box"  style="width: 600px;">
-    <!-- Fähigkeiten -->
-    <section>
-
-      <h3>Fähigkeiten</h3>
-      <br>
-
-
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Bereich</th>
-            <th scope="col">Kenntnisstand</th>
-            <th scope="col">Erfahrung</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <th scope="row">HTML</th>
-            <td>Fortgeschritten</td>
-            <td>3 Monate</td>
-          </tr>
-
-          <tr>
-            <th scope="row">CSS</th>
-            <td>Grundlagen</td>
-            <td>2 Monate</td>
-          </tr>
-
-          <tr>
-            <th scope="row">Git &amp;  GitHub</th>
-            <td>Einsteiger</td>
-            <td>1 Monat</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </section>
-
-
-
-      <h2>Startup</h2>
-
-      <p>
-        <a href="https://savitha14june.github.io/autoherosample/">
-          Mein Startup Projekt mit savitha
-        </a>
-      </p> 
-      <p>
-        <a href="https://hamidkhadir2.github.io/myweb/grid.html">
-          Grid Sample
-        </a>
-      </p>
-
-
-      </div>
-    <!-- Kontakt -->
-    <section id="kontakt" class="box" style="width: 600px;">
-
-      <h2>Kontakt</h2>
-
-      <p>
-        <a href="mailto:hamid.khadir@gmail.com">
-          hamid.khadir@gmail.com
-        </a>
-      </p>
-
-    
-
-
-      <form action="https://httpbin.org/post" method="post">
-
-        <div>
-          <label for="name">Name *</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required>
-        </div>
-
-        <div>
-          <label for="email">E-Mail *</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required>
-        </div>
-
-        <div>
-          <label for="telefon">Telefon</label>
-          <input
-            type="tel"
-            id="telefon"
-            name="telefon">
-        </div>
-
-        <div>
-          <label for="betreff">Betreff *</label>
-          <input
-            type="text"
-            id="betreff"
-            name="betreff"
-            required>
-        </div>
-
-        <div>
-          <label for="nachricht">Nachricht *</label>
-          <textarea
-            id="nachricht"
-            name="nachricht"
-            rows="6"
-            placeholder="Schreibe deine Nachricht..."
-            required></textarea>
-        </div>
-
-        <button type="submit">Nachricht senden</button>
-      </form>
-    </div>
-  <footer>
-    <p>&copy; 2026 Hamid Khadir. Alle Rechte vorbehalten.</p>
-  </footer>
-</main>
- </div>
 </body>
 </html>
