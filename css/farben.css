@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  color: black;
+}
+.info {
+  color: steelblue;
+  background-color: lightblue;
+
+}
+.warnung {
+  color: darkred;
+  background-color: lightyellow;
+ }
+.erfolg {
+  color: darkgreen;
+  background-color: lightgreen;
+}
